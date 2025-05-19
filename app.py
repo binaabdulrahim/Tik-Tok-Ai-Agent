@@ -4,7 +4,7 @@ from langchain_groq import ChatGroq
 from langchain.agents import Tool, initialize_agent, AgentType
 from langchain_community.utilities import SerpAPIWrappe
 
-st.title("AI TikTok Agent")
+st.title("TikTok Ai Agent")
 
 with st.sidebar:
     st.header("Keys & Settings")
